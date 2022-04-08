@@ -36,7 +36,7 @@ In the case below, we called the command in the folder
 with the file so just the filename was needed, and
 the server address was `ieng6.ucsd.edu` with the
 destination path being the home directory:
-![](images/SCP.png)
+![](images/SCP.png)  
 Now the file should've been copied to the remote system.
 
 ## Setting an SSH Key
@@ -59,5 +59,5 @@ together to avoid human delay. Thus we can chain together
 scp, the compilation, and run step to achieve the 
 sub-4 second runtime that was required to copy, compile,
 and run WhereAmI with the command
-shown below: 
+shown below:  
 ![](images/Optimization.png)
